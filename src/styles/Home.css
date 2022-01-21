@@ -1,0 +1,19 @@
+
+
+.container-home{
+    background-color: lightblue;
+    height: 90vh;
+    width: 100%;
+    display:  flex;
+    flex-direction: row-reverse;
+}
+
+
+
+@media screen and (max-width: 650px) {
+
+    .container-home{
+        flex-direction: column;
+    }
+    
+}

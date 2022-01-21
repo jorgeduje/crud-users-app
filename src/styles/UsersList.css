@@ -1,0 +1,28 @@
+
+.container-cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #654ea3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 20px;
+    padding: 20px 20px;
+    min-height: 90vh;
+   overflow-y: scroll;
+}
+
+/* OCULTAR EL SCROLL */
+.container-cards::-webkit-scrollbar {
+    display: none;
+}
+
+
+@media screen and (max-width: 650px) {
+    .container-cards{
+        width: 100%;
+    }
+}
